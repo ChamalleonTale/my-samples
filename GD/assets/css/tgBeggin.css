@@ -2,17 +2,17 @@
 
 .Menu {margin:0 auto;width:99%;border:1px dashed blue;padding:15px 0}
 
-.menuMod1 {margin:0 auto;width:99%;height:50px;border:1px dashed grey;}
+.menuMod1 {margin:0 auto;width:99%;height:50px;border:1px dashed grey;align-content:center;}
 
-.menuMod2 {margin:0 auto;width:99%;height:50px;border:1px dashed white}
+.menuMod2 {margin:0 auto;width:99%;border:1px dashed white;padding:15px 0;}
 
-.menuMod3 {margin:0 auto;width:99%;height:50px;border:1px dashed grey}
+.menuMod3 {margin:0 auto;width:99%;height:50px;border:1px dashed grey;align-content:center;}
 
-.menuMod4 {margin:0 auto;width:99%;height:50px;border:1px dashed white}
+.menuMod4 {margin:0 auto;width:99%;height:50px;border:1px dashed white;align-content:center;}
 
-.menuMod5 {margin:0 auto;width:99%;height:50px;border:1px dashed grey}
+.menuMod5 {margin:0 auto;width:99%;height:50px;border:1px dashed grey;align-content:center;}
 
-.menuMod6 {margin:0 auto;width:99%;height:50px;border:1px dashed white}
+.menuMod6 {margin:0 auto;width:99%;height:50px;border:1px dashed white;align-content:center;}
 
 .corpo {margin:0 auto;width:99%;border:1px dashed yellow;padding:15px 0}
 
@@ -33,3 +33,26 @@
 .esp {width:100%;height:20px;}
 
 .divCT {margin:0 auto;width:99%}
+
+
+
+/*MENUS STRUCT*/
+
+.menuMod1 ul {margin:0 auto;}
+
+.menuMod1 ul a {float:left;padding:5px 10px;text-decoration:none;color:white;background-color:grey;}
+
+.menuMod1 ul a:hover {background-color:white;color:black;text-decoration:underline}
+
+.menuMod1 ul li {list-style:none}
+
+
+
+
+.menuMod2 ul {margin:0;padding:0;margin-left:40px;width:100px;}
+
+.menuMod2 li {width:100px;background-color:grey;list-style:none;padding:7px}
+
+.menuMod2 li:hover {background-color:white;color:black;text-decoration:underline}
+
+.menuMod2 a {text-decoration:none;color:white;}
