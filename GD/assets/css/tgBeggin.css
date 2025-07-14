@@ -24,7 +24,7 @@
 
 .rdp {margin:0 auto;width:99%;border:1px dashed orange;padding:15px 0}
 
-.rdpM1 {margin:0 auto;width:99%;height:300px;border:1px dashed red}
+.rdpM1 {margin:0 auto;width:99%;border:1px dashed red;padding:2px 0;}
 
 .rdpM2 {margin:0 auto;width:99%;height:300px;border:1px dashed purple}
 
@@ -36,7 +36,9 @@
 
 
 
-/*MENUS STRUCT*/
+/********************************/
+/* --------  M E N U  --------- */
+/********************************/
 
 .menuMod1 ul {margin:0;padding:0;margin-left:40px;}
 
@@ -112,3 +114,59 @@
 .menuMod4 .dropdown-menu2 li:hover {background-color:#666666;color:white;}
 .menuMod4 .dropdown2:hover .dropdown-menu2 {display:block;}
 .menuMod4 .dropdown2:hover .dropbtn2 {background-color:white;color:black;text-decoration:underline;}
+
+
+
+
+
+
+/********************************/
+/* -----  C O N T E U D O  ---- */
+/********************************/
+
+
+
+
+
+
+
+
+
+
+/********************************/
+/* ----------  R D P  --------- */
+/********************************/
+
+.rdpM1 {margin:0 auto;background-color:#303030;width:99%;}
+.rdpCon {margin:0 auto;width:99%;border:1px dashed blue;display:flex;align-content:center;padding:1px 0;}
+.con1 {margin:0 auto;/*min-width:400px;*/width:29.5%;border:1px dashed white;float:left;padding:2px;}
+.con2 {margin:0 auto;width:29.5%;border:1px dashed grey;float:left;padding:3px 2px;align-content:center;}
+.con2 div {margin:0 auto;width:99%;height:99%;background-color:rgba(255, 255, 255, 0.1);align-content:center;}
+.con2 div p {margin:0 auto;width:200px;height:200px;padding:2px;text-align:center;border:1px dashed cyan;align-content:center;}
+.con3 {margin:0 auto;/*min-width:390px;*/width:40%;border:1px dashed white;float:left;padding:2px;align-content:center;}
+.con3-1 {margin:0 auto;width:99%;border:1px dashed pink;padding:2px 2px 2px 20px;height:33%;align-content:center;text-align:center;align-items:center;}
+.con3-1 div {margin:0 auto;width:50px;height:50px;background-color:#666666;float:left;text-align:center;align-content:center;margin-left:5px;border-radius:5%;}
+.con3-1 div:hover {scale:1.1;font-weight: 900;}
+.con3-1 h5 {margin:0 auto;padding:5px 5px;text-align:left;}
+.con3-1 .msI:hover {background-color:#E300B4;border:2px solid white;} 
+.con3-1 .msF:hover {background-color:#0200BF;border:2px solid white;}
+.con3-1 .msT:hover {background-color:black;color:#BD00FF;border:2px solid #BD00FF;}
+.con3-1 .msY:hover {background-color:#E30004;border:2px solid white;}
+.con3-1 .msL:hover {background-color:#1A68FF;border:2px solid white;}
+.con3-1 .msG:hover {background-color:black;border:2px solid white;}
+.con3-2 {margin:0 auto;width:99%;border:1px dashed orange;padding:2px 2px 2px 20px;height:33%;align-content:center;}
+.con3-2 h5 {margin:0 auto;padding:5px 5px;text-align:left;}
+.rdpM1 .sendForm {margin:0 auto;padding:2px 2px 2px 5px;}
+.rdpM1 .inpT {margin:0 auto;width:275px;border-radius:5px;padding:2px 2px 2px 8px;}
+.rdpM1 .inpB {margin:0 auto;border-radius:5px;padding:2px 6px;background-color:#05BD00;color:white;font-weight: 600;}
+.rdpM1 .inpB:hover {scale:1.05;border:2px solid white;}
+.con3-3 {margin:0 auto;width:99%;border:1px dashed cyan;padding:2px;height:33%;align-content:center;}
+.con3-3 div {margin:0 auto;width:99%;height:99%;background-color:rgba(255, 255, 255, 0.1);align-content:center;}
+.con3-3 div p {margin:0 auto;width:98%;height:98%;padding:2px;text-align:center;border:1px dashed green;align-content:center;}
+.ncpyr {margin:0 auto;width:99%;text-align:center;align-content:center;padding:5px 0;border:1px dashed white;}
+.rdpM1 li {list-style:none;margin-top:2px;}
+.rdpM1 .liSpc {margin-top:20px;}
+.rdpM1 .dHesp {margin:0 auto;padding:0;height:100%;min-width:1%;width:23px;float:left;}
+.rdpM1 .fl {float:left;padding:0 10px;}
+.rdpM1 .passo {margin-left:20px;}
+.rdpM1 ul{margin:0 auto;padding:2px 10px;}
