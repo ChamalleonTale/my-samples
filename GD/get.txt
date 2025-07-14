@@ -1,5 +1,29 @@
 assets
 books
+ -b
+ -h
+ -mps
+   -m1
+   -m2
+   -m3
+   ...
 class
+ -c1
+ -c2
+ -c3
+ ...
 ranking
+ -r1
+ -r2
+ -r3
+ ...
 skills
+ -s1
+ -s2
+ -s3
+ ...
+builds
+ -bc1
+ -bc2
+ -bc3
+ ...
