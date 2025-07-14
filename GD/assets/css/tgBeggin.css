@@ -8,7 +8,7 @@
 
 .menuMod3 {margin:0 auto;width:99%;border:1px dashed grey;align-content:center;padding:15px 0;}
 
-.menuMod4 {margin:0 auto;width:99%;height:50px;border:1px dashed white;align-content:center;}
+.menuMod4 {margin:0 auto;width:99%;border:1px dashed white;align-content:center;padding:15px 0;}
 
 .menuMod5 {margin:0 auto;width:99%;height:50px;border:1px dashed grey;align-content:center;}
 
@@ -74,13 +74,41 @@
 .menuMod3 .dropdown {position:relative;display:inline-block;}
 .menuMod3 .dropdown-menu {display:none;position:absolute;background-color:grey;min-width:70px;box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);z-index:1;}
 .menuMod3 .dropdown-menu a {color:white;text-decoration:none;display:block;}
-.menuMod3 .dropdown-menu a:hover {background-color: #666666}
+.menuMod3 .dropdown-menu li:hover {background-color:#666666;color:white;}
 .menuMod3 .dropdown:hover .dropdown-menu {display:block;}
 .menuMod3 .dropdown:hover .dropbtn {background-color:white;color:black;text-decoration:underline;}
 
 .menuMod3 .dropdown2 {position:relative;display:inline-block;}
 .menuMod3 .dropdown-menu2 {display:none;position:absolute;background-color:grey;min-width:70px;box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);z-index:1;top:0;left:70px;}
 .menuMod3 .dropdown-menu2 a {color:white;text-decoration:none;display:block;}
-.menuMod3 .dropdown-menu2 a:hover {background-color: #f1f1f1}
+.menuMod3 .dropdown-menu2 li:hover {background-color:#666666;color:white;}
 .menuMod3 .dropdown2:hover .dropdown-menu2 {display:block;}
-.menuMod3 .dropdown2:hover .dropbtn {background-color:white;color:black;text-decoration:underline;}
+.menuMod3 .dropdown2:hover .dropbtn2 {background-color:white;color:black;text-decoration:underline;}
+
+
+
+
+.menuMod4 ul {margin:0;padding:0;margin-left:40px;text-align:center;width:70px}
+
+.menuMod4 ul li {width:70px;background-color:grey;list-style:none;padding:7px;}
+
+.menuMod4 ul li:hover {background-color:white;color:black;text-decoration:underline}
+
+.menuMod4 a {text-decoration:none;color:white;}
+
+/*.menuMod4 .fl {float:left;}*/
+/*.menuMod4 .tc {text-align:center}*/
+
+.menuMod4 .dropdown {position:relative;display:inline-block;}
+.menuMod4 .dropdown-menu {display:none;position:absolute;background-color:grey;min-width:70px;box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);z-index:1;top:0;left:70.2px;}
+.menuMod4 .dropdown-menu a {color:white;text-decoration:none;display:block;}
+.menuMod4 .dropdown-menu li:hover {background-color:#666666;color:white;}
+.menuMod4 .dropdown:hover .dropdown-menu {display:block;}
+.menuMod4 .dropdown:hover .dropbtn {background-color:white;color:black;text-decoration:underline;}
+
+.menuMod4 .dropdown2 {position:relative;display:inline-block;}
+.menuMod4 .dropdown-menu2 {display:none;position:absolute;background-color:grey;min-width:70px;box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);z-index:1;top:0;left:70px;}
+.menuMod4 .dropdown-menu2 a {color:white;text-decoration:none;display:block;}
+.menuMod4 .dropdown-menu2 li:hover {background-color:#666666;color:white;}
+.menuMod4 .dropdown2:hover .dropdown-menu2 {display:block;}
+.menuMod4 .dropdown2:hover .dropbtn2 {background-color:white;color:black;text-decoration:underline;}
